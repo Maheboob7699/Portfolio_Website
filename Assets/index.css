@@ -100,7 +100,7 @@ margin-right: 10px;
 .section-1{
     height: 550px;
     width: 100%;
-    /* background-color: burlywood; */
+    background-color: burlywood;
 
     
 }
@@ -118,8 +118,8 @@ margin-right: 10px;
     width: 40%;
     height: 300px;
     margin-top: 90px;
-    /* background-color: aliceblue;
-     */
+   
+    
 }
 
 
@@ -127,7 +127,7 @@ margin-right: 10px;
     width: 40%;
     height: 300px;
     margin-left: 150px;
-    /* background-color: #806d6d; */
+  
     height: 300px;
    
    
