@@ -26,7 +26,7 @@ nav{
     background-color: var(--light-gray-color);
 }
 
-.container{
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +49,7 @@ ul li a{
     text-decoration: none;
 }
 
-.search{
+.search-bar{
     display: flex;
     justify-content:center;
     align-items: center;
@@ -61,13 +61,13 @@ ul li a{
     margin-right: 100px;
 }
 
-.search i{ 
+.search-bar i{ 
 color:var(--white-color);
 margin-right: 10px;
 
 }
 
-.search .search-input{
+.search-bar .search-input{
     height: 20px;
     width: 90px;
     border-radius: 5px;
@@ -77,7 +77,7 @@ margin-right: 10px;
     border: none;
 
 }
-  .search .search-input::placeholder{
+  .search-bar .search-input::placeholder{
     color: var(--white-color);
     font-size: 0.9rem;
 }
@@ -97,7 +97,7 @@ margin-right: 10px;
 
 /* section-1 */
 
-.section-1{
+.about-section{
     height: 550px;
     width: 100%;
     background-color: burlywood;
@@ -106,7 +106,7 @@ margin-right: 10px;
 }
 
 
-.section-1 .container{
+.about-section .about-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@ margin-right: 10px;
 }
 
 
-.section-1 .container .box-left{
+.about-section .about-container .about-infromation{
     width: 40%;
     height: 300px;
     margin-top: 90px;
@@ -123,7 +123,7 @@ margin-right: 10px;
 }
 
 
-.section-1 .container .box-right{
+.about-section .about-container .about-img{
     width: 40%;
     height: 300px;
     margin-left: 150px;
@@ -133,7 +133,7 @@ margin-right: 10px;
    
 }
 
-.section-1 .container .box-right img{
+.about-section .about-container .about-img img{
     height: 350px;
     width: 350px;
     filter: drop-shadow( black 0 0 10px );
@@ -154,7 +154,7 @@ margin-right: 10px;
   border: 2px solid  #3572EF;
 }
 
-.box-bottom{
+.job-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,17 +170,16 @@ margin-right: 10px;
     
    
 }
-.box-bottom .top{
+.job-description .top{
     text-align: center;
-   
     border-bottom: 2px solid rgb(27, 26, 26);
     width: 400px;
     height: 30px;
-    margin-left: 350px;
+    margin-left: 240px;
 
 }
 
-.box-bottom .span{
+.job-description .span{
     margin-top: 10px;
     display: flex ;
     justify-content: space-evenly;
@@ -193,23 +192,23 @@ margin-right: 10px;
 
 /* section-2  */
 
-.section-2{
+.tech-skill{
     margin-top: 20px;
-    height: 80vh;
- 
+    height: 50vh;
     width: 100%;
-
+   
 }
 
 
-.section-2 h2{
+.tech-skill h2{
     padding-top: 20px;
-    padding-left: 50px;
+    padding-left: 80px;
 }
 
-.section-2 .box-top{
+.tech-skill .tech-skill-image-list{
     text-align: center;
     display: flex;
+    margin-top: 30px;
     justify-content: space-evenly;
     width: 100%;
     height: 250px;
@@ -217,48 +216,44 @@ margin-right: 10px;
    
 }
 
-.section-2 .box-top div img{
+.tech-skill .tech-skill-image-list div img{
     height: 150px;
     width: 150px;
    
 }
 
-.section-2 .section-2-box-bottom{
+ .soft-skill{
     margin-top: 30px;
     height: 300px;
     width: 100%;
    
-   
-   
 }
 
-.section-2-box-bottom h2{
-    padding-left: 50px;
+.soft-skill h2{
+    padding-left: 100px;
+    padding-top: 30px;
 }
 
 
 
 
 
-
-
-.section-2 .section-2-box-bottom .soft-skills{
-   
+ .soft-skill .soft-skill-list{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
     height: 170px;
-    width: 80%;
+    width: 90%;
     background-color:var(--white-color);
     border: none;
     border-radius: 10px;
-    margin-top: 30px;
-    margin-left: 100px;
+    margin-top: 40px;
+    margin-left: 70px;
     filter: drop-shadow( rgb(226, 218, 218) 0 0 10px );
 }
 
-.section-2 .section-2-box-bottom .soft-skills i{
+.soft-skill .soft-skill-list i{
     color:#3572EF;
 }
 
