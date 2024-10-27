@@ -95,7 +95,7 @@ margin-right: 10px;
 /* main-End */
 
 
-/* section-1 */
+/* about section */
 
 .about-section{
     height: 550px;
@@ -187,10 +187,10 @@ margin-right: 10px;
    
 }
 
-/* section-1 End */
+/* about-section End */
  
 
-/* section-2  */
+/* tech skills */
 
 .tech-skill{
     margin-top: 20px;
@@ -222,6 +222,11 @@ margin-right: 10px;
    
 }
 
+/* tech skill end */
+
+
+
+/* soft skills */
  .soft-skill{
     margin-top: 30px;
     height: 300px;
@@ -257,7 +262,9 @@ margin-right: 10px;
     color:#3572EF;
 }
 
-/* section -3 */
+/* soft skills end */
+
+/* project */
 
 
 .projects{
@@ -287,7 +294,7 @@ margin-right: 10px;
     height: 72px;
     
     font-weight: 700;
-    font-size: 48px;
+    font-size:2rem;
     line-height: 72px;
     text-align: center;
     
@@ -413,4 +420,101 @@ margin-right: 10px;
 }
 
 
-/* section -3 End */
+/* project-section End */
+
+
+/* experience */
+
+/* .experience{
+    background-color: #555555;
+    height: 300px;
+    width: 100%;
+} */
+
+.experience{
+    height: 400px;
+    width: 100%;
+    margin-top: 800px;
+}
+
+
+.experience h2{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.experience-list{
+
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.experience-list-item1{
+    display: flex;
+    height: 200px;
+    width:460px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 16px;
+    background: #F1F1F1;
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.experience-list-item1  div img{
+    height: 130px;
+    width:180px;
+    margin-left: 10px;
+}
+
+.experience-list-item1  div button{
+    height: 40px;
+    width:170px;
+    background-color: #3572EF;
+    border: none;
+}
+
+.experience-list-item1 .company-details{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+.experience-list-item2{
+    display: flex;
+    height: 200px;
+    width:460px;
+    margin-top: 0px;
+    margin-left: 50px;
+    border-radius: 16px;
+    background: #F1F1F1;
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.experience-list-item2  div img{
+    height: 130px;
+    width:180px;
+    margin-left: 10px;
+}
+
+.experience-list-item2  div button{
+    height: 40px;
+    width:170px;
+    background-color: #3572EF;
+    border: none;
+}
+
+.experience-list-item2 .company-details{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+/* experience end */
